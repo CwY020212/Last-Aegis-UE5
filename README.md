@@ -27,6 +27,23 @@ This project was developed to explore Unreal Engine's Gameplay Ability System (G
 ### Skill Lab
 ![Skill Lab](Screenshots/Skill%20Lab.png)
 
+## Blueprint Technical Showcase
+
+### Weapon Slot Selection
+
+The weapon manager uses the selected slot index to determine
+which weapon class should be equipped.
+
+![Weapon Slot Selection](Documentation/Blueprints/WeaponSlotSelection.png)
+
+### Weapon Switching Flow
+
+The weapon manager validates the selected weapon class,
+checks the currently equipped weapon, and unequips it
+before equipping the newly selected weapon.
+
+![Weapon Switching Flow](Documentation/Blueprints/WeaponSwitchFlow.png)
+
 ## Technical Implementation
 
 ### C++ — GAS Foundation
