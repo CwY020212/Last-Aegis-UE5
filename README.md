@@ -44,6 +44,12 @@ before equipping the newly selected weapon.
 
 ![Weapon Switching Flow](Documentation/Blueprints/WeaponSwitchFlow.png)
 
+### Ammo Persistence on Weapon Switch
+
+When a weapon is unequipped, the weapon manager stores the current clip ammo and reserve ammo into a `StoredAmmoMap` using the weapon enum as the key. This allows the system to destroy the current weapon actor and later restore the correct ammo values when that weapon is equipped again.
+
+![Ammo Persistence Save](Documentation/Blueprints/AmmoPersistence_Save.png)
+
 ## Technical Implementation
 
 ### C++ — GAS Foundation
