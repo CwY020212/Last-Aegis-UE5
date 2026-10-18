@@ -16,6 +16,17 @@ This project was developed to explore Unreal Engine's Gameplay Ability System (G
 - **Wave-Based Encounters:** Enemy waves followed by a boss fight.
 - **Combat UI:** Health, weapon selection, cooldowns, and status indicators.
 
+## Gameplay Screenshots
+
+### Main Menu
+![Last Aegis Main Menu](Screenshots/Main%20Menu.png)
+
+### Weapon Selection
+![Weapon Selection](Screenshots/Weapon%20Selection.png)
+
+### Skill Lab
+![Skill Lab](Screenshots/Skill%20Lab.png)
+
 ## Technical Implementation
 
 ### C++ — GAS Foundation
